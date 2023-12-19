@@ -1,0 +1,36 @@
+sudo yum install -y mysql
+
+sudo yum install -y httpd
+
+cd /var/www/html
+
+sudo amazon-linux-extras install -y mariadb10.5 php8.2 	// as latest wordpress only suports latest php versions 
+
+sudo wget https://wordpress.org/latest.tar.gz  //installing the latest version of wordpress 
+
+sudo tar -xzf latest.tar.gz  //unzipping the wordpress file
+
+// We will copy all the files in the wordpress into the /var/www/html folder
+sudo cp -R wordpress/* /var/www/html
+
+// Now we will delete the unecessary files 
+sudo rm -rf wordpress
+sudo rm -rf latest.tar.gz
+
+sudo chmod -R 755 wp-content/   //changing access permissions of wp-content 
+
+sudo chown -R apache:apache wp-content/   //changing ownership from root to apache 
+// you can check new ownership by 'ls -lah' command
+
+sudo service httpd start
+sudo chkconfig httpd on
+
+
+
+//Now access the page and enter the necessary details, you require to login to rds instance you created 
+//use rds_endpoint instead of local_host 
+
+//after that you will be prompted to creat wp_config.php -- it can be created in the follwing way
+sudo vi wp-config.php
+//and paste wahtever is given on the page you get after logging in
+//You are ready to setup your wordpress page :)
