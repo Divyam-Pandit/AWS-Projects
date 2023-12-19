@@ -2,6 +2,8 @@
 
 Mealify is a serverless chatbot application built on AWS that simplifies meal planning by creating personalized 7-day meal plans tailored to your dietary preferences and goals. Harnessing the capabilities of AWS services, Mealify provides an efficient and convenient solution for planning your meals.
 
+![Meal-Planner](https://github.com/Divyam-Pandit/AWS-Projects/assets/100858214/4d4d0ebb-0a2f-4fd3-8db7-5430cd87698a)
+
 ## Features
 
 * **Conversational Interface:** Interact with Mealify through an intuitive chatbot built with AWS Lex. Simply convey your preferences and goals, and Mealify will generate a personalized meal plan just for you.
