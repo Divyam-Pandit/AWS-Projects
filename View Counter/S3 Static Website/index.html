@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Views Counter</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Greetings from Divyam Sharma!</h1>
+        </header>
+        <section id="nameInput">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <button onclick="updateName()">Enter Name</button>
+        </section>
+        <section id="viewSection">
+            <h2>Number of Views:</h2>
+            <p id="viewCount">Loading...</p>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
