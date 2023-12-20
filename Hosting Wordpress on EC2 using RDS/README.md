@@ -6,8 +6,7 @@ This project guides you through the process of hosting a WordPress website on an
 
 WordPress is a popular content management system (CMS) that allows you to create and manage websites easily. Hosting it on AWS EC2 provides flexibility and control over the server environment, while RDS simplifies database management.
 
-![wordpress drawio](https://github.com/Divyam-Pandit/AWS-Projects/assets/100858214/989b8361-8635-4009-b97d-3c6479a1cef0)
-
+![Wordpress drawio](https://github.com/Divyam-Pandit/AWS-Projects/assets/100858214/deca4f6b-7667-41fc-b007-44290cc0f00d)
 
 ## Features
 
