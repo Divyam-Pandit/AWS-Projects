@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #343a40; /* Dark background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 600px; /* Reduced box width */
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px; /* Reduced box padding */
+    border-radius: 15px; /* Reduced border-radius */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Adjusted width to 90% */
+    margin: auto; /* Center the box */
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label {
+    color: #007bff;
+    display: block;
+    text-align: left;
+}
+
+input, textarea {
+    width: calc(100% - 20px); /* Slightly reduced width */
+    padding: 12px; /* Slightly reduced padding */
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+button {
+    width: 100%; /* Make button full width */
+    padding: 14px; /* Slightly reduced padding */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
